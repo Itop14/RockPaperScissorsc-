@@ -1,20 +1,23 @@
-# RockPaperScissorsc-
+Ivan Top RockPaperScissors c#
 Rock Paper Scissors
 
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+Two-Player Mode: Each player secretly selects an option, then both reveal their choices simultaneously. The winner is determined based on the interactions above, or the game is a draw if both players choose the same option.
+Against the Computer: The player selects an option, and the computer randomly generates its choice. The winner is again determined using the same rules.
 
-namespace Rock_paper_scissors
-{
-    public partial class Form1 : Form
+    using System;
+    using System.Collections.Generic;
+    using System.ComponentModel;
+    using System.Data;
+    using System.Drawing;
+    using System.Linq;
+    using System.Text;
+    using System.Threading.Tasks;
+    using System.Windows.Forms;
+
+    namespace Rock_paper_scissors
     {
+        public partial class Form1 : Form
+        {
 
         string weapon_player1 = ""; // weapon choice of player 1 
         string weapon_player2 = ""; // weapon choice of player 2
